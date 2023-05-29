@@ -13,4 +13,4 @@
 | 07    |linked-list-kth |[kth.md](./readmefiles/kth.md) |
 | 08    | Text           | And more      |
 | 09    | Title          | Here's this   |
-| 10    | Text           | And more      |
+| 10    |stack-and-queue |[stackqueue.md](./readmefiles/stackqueue.md)|
