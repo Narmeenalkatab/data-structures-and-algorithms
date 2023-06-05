@@ -15,4 +15,5 @@
 | 09    | Title          | Here's this   |
 | 10    |stack-and-queue |[stackqueue.md](./readmefiles/stackqueue.md)|
 | 11   |stack-queue-pseudo |[pseudostack.md](/readmefiles/pseudostack.md)|
-| 12   |stack-queue-animal-shelter|[stack-queue-animal-shelter](/readmefiles/animal.md)|
+|12|stack-queue-animal-shelter|[stack-queue-animal-shelter](/readmefiles/animal.md)|
+| 13 |stack-queue-brackets|[brackets.md](./readmefiles/brackets.md)|
