@@ -17,3 +17,4 @@
 | 11   |stack-queue-pseudo |[pseudostack.md](/readmefiles/pseudostack.md)|
 |12|stack-queue-animal-shelter|[stack-queue-animal-shelter](/readmefiles/animal.md)|
 | 13 |stack-queue-brackets|[brackets.md](./readmefiles/brackets.md)|
+| 13 |duck duck goose game|[duck.md](./readmefiles/duck.md)|
