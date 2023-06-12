@@ -17,3 +17,4 @@
 | 11   |stack-queue-pseudo |[pseudostack.md](/readmefiles/pseudostack.md)|
 | 12   |stack-queue-animal-shelter|[stack-queue-animal-shelter](/readmefiles/animal.md)|
 | 15   |Binary Tree and BST|[Binary Tree and BST](./readmefiles/tree.md) |
+| 16   |Maximum Value in a Binary Tree|[Maximum Value in a Binary Tree](./readmefiles/maxtree.md) |
