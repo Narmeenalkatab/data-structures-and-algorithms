@@ -6,7 +6,7 @@ I write function uses a stack to keep track of the opening brackets encountered.
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-![bracket](../images/bracets.jpg)
+![bracket](../images/bracts.jpg)
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 Approach:
