@@ -18,3 +18,4 @@
 |12|stack-queue-animal-shelter|[stack-queue-animal-shelter](/readmefiles/animal.md)|
 | 13 |stack-queue-brackets|[brackets.md](./readmefiles/brackets.md)|
 | 14|Insertion Sort|[Insertion Sort](./readmefiles/cc26.md)|
+| 14|Sorting: Comparisons|[Sorting: Comparisons](./readmefiles/Comparisons.md)|
