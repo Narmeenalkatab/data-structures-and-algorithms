@@ -20,3 +20,4 @@
 | 14|Insertion Sort|[Insertion Sort](./cc26.md)|
 | 15|Mergr Sort|[Merge Sort](./readmefiles/merge27.md)|
 | 16|Hash table|[hash](./readmefiles/hashtable.md)|
+| 17|hashmap repeated word|[hashmap](./readmefiles/repeatedword.md)|
