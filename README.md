@@ -19,3 +19,4 @@
 | 13 |stack-queue-brackets|[brackets.md](./readmefiles/brackets.md)|
 | 14|Insertion Sort|[Insertion Sort](./cc26.md)|
 | 15|Sorting: Comparisons|[Sorting: Comparisons](./readmefiles/cc28.md)|
+| 16|hashmap-left-join|[hashmap-left-join](./readmefiles/leftjoin.md)|
