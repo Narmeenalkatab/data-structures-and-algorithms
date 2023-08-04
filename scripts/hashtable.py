@@ -17,8 +17,9 @@ class Hashtable:
         for entry in self.table[index]:
             if entry[0] == key:
                 entry[1] = value
+                return
 
-        self.table[index].append((key, value))
+        self.table[index].append([key, value])
 
     def get(self, key):
         index = self.hash(key)
@@ -40,7 +41,7 @@ class Hashtable:
             if entry[0] == key:
                 return True
 
-        return False 
+        return False
 
     def keys(self):
         keys = []
@@ -49,3 +50,12 @@ class Hashtable:
                 for entry in bucket:
                     keys.append(entry[0])
         return keys
+
+    def find_common_values(self, other_hashmap):
+        common_values = set()
+        for bucket in self.table:
+            if bucket:
+                for key, value in bucket:
+                    if other_hashmap.has(key) and other_hashmap.get(key) == value:
+                        common_values.add(value)
+        return common_values
