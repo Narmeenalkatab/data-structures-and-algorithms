@@ -1,7 +1,8 @@
 ## White board
-![tree-intersection](../images/treeinter.jpg)
+![tree-intersection](../images/co32.png)
 ## Run in terminal
-![run27](../images/cc32.png)
+```pytest tests/test_tree_intersection.py```
+
 
 ## Code
 __Code__
