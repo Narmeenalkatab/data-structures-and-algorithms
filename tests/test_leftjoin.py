@@ -1,33 +1,33 @@
 from scripts.leftjoin import left_join
-import pytest
 
 def test_left_join():
-    synonyms_hash = {
-        "diligent": "employed",
-        "fond": "enamored",
-        "guide": "usher",
-        "outfit": "garb",
-        "wrath": "anger",
-    }
-    antonyms_hash = {
-        "diligent": "idle",
-        "fond": "averse",
-        "guide": "follow",
-        "flow": "jam",
-        "wrath": "delight",
+    synonyms = {
+        'happy': 'joyful',
+        'sad': 'unhappy',
+        'angry': 'mad',
     }
 
-    result = left_join(synonyms_hash, antonyms_hash)
-    assert result == [
-        ["diligent", "employed", "idle"],
-        ["fond", "enamored", "averse"],
-        ["guide", "usher", "follow"],
-        ["outfit", "garb", None],
-        ["wrath", "anger", "delight"],
-    ]
+    antonyms = {
+        'happy': 'sad',
+        'excited': 'bored',
+    }
 
-    result = left_join({}, {})
-    assert result == []
+    result = left_join(synonyms, antonyms)
+    assert result == [('happy', 'joyful', 'sad'), ('sad', 'unhappy', None), ('angry', 'mad', None)]
 
-    result = left_join({"apple": "red", "banana": "yellow"}, {"apple": "green"})
-    assert result == [["apple", "red", "green"], ["banana", "yellow", None]]
+    antonyms_empty = {}
+    result_empty = left_join(synonyms, antonyms_empty)
+    assert result_empty == [('happy', 'joyful', None), ('sad', 'unhappy', None), ('angry', 'mad', None)]
+
+    synonyms_empty = {
+        'hot': 'warm',
+        'cold': 'chilly',
+    }
+
+    antonyms = {
+        'hot': 'cold',
+        'warm': 'cool',
+    }
+
+    result = left_join(synonyms_empty, antonyms)
+    assert result == [('hot', 'warm', 'cold'), ('cold', 'chilly', None)]
