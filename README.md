@@ -18,5 +18,8 @@
 |12|stack-queue-animal-shelter|[stack-queue-animal-shelter](/readmefiles/animal.md)|
 | 13 |stack-queue-brackets|[brackets.md](./readmefiles/brackets.md)|
 | 14|Insertion Sort|[Insertion Sort](./cc26.md)|
+| 15|Mergr Sort|[Merge Sort](./readmefiles/merge27.md)|
+| 16|Hash table|[hash](./readmefiles/hashtable.md)|
+=======
 | 15|Sorting: Comparisons|[Sorting: Comparisons](./readmefiles/cc28.md)|
 | 16|hashmap-left-join|[hashmap-left-join](./readmefiles/leftjoin.md)|
